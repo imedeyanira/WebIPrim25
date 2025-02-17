@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Tablas</title>
+	<style type="text/css">
+		th{
+			text-align: left;
+			color: blue;
+			background-color: white;
+			padding: 5px;
+		}
+		td{
+			text-align: justify;
+			color: white;
+			background-color: blue;
+		}
+	</style>
+</head>
+<body style="background-color: lightblue;">
+	<h1>Práctica 2 Iframe</h1>
+	<!-- Insertar una tabla -->
+	<!-- Linea continua: solid
+	Linea punteada: dotted
+	Linea de guiones: dashed-->
+	<table style="border: 1px dashed white;
+		width: 75%;margin:auto;
+		background: blue; color: white;">
+		<caption>Uso de tablas en HTML
+		</caption>
+		<!-- Encabezado de tabla -->
+		<thead>
+			<!-- Insertar filas -->
+			<tr>
+				<th>Título 1</th>
+				<th>Título 2</th>
+				<th>Título 3</th>
+				<th>Título 4</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>Celda 1</td>
+				<td>Celda 2</td>
+				<td>Celda 3</td>
+				<td>Celda 4</td>
+			</tr>
+			<tr>
+				<td>Celda 5</td>
+				<td>Celda 6</td>
+				<td>Celda 7</td>
+				<td>Celda 8</td>
+			</tr>
+			<tr>
+				<td>Celda 9</td>
+				<td>Celda 10</td>
+				<td>Celda 11</td>
+				<td>Celda 12</td>
+			</tr>
+		</tbody>
+		<tfoot>
+			<tr>
+				<td>Totales 1</td>
+				<td>Totales 2</td>
+				<td>Totales 3</td>
+				<td>Totales 4</td>
+			</tr>
+		</tfoot>
+	</table>
+	<h2>Imágenes</h2>
+	<img src="imagenes/logo.png" style="height: 150px; border: 2px solid black;">
+	<img src="imagenes/logo2.jfif" style="height: 150px; border: 2px solid black;">
+	<img src="imagenes/logo atit.png" style="height: 150px; border: 2px solid black;"><br/>
+
+	<a href="https://www.upslp.edu.mx/upslp/" target="ventana1">
+	Visita la página oficial 
+	</a>
+	<h2>Mapa de Google</h2>
+	<br/>
+
+	<iframe src="https://www.upslp.edu.mx/upslp/"></iframe>
+	<br/>
+	<iframe src="" name="ventana1"></iframe>
+</body>
+</html>
